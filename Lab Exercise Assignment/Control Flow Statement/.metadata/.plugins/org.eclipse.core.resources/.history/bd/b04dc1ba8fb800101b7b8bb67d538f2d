@@ -1,0 +1,9 @@
+package basic;
+
+public class OddEven {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

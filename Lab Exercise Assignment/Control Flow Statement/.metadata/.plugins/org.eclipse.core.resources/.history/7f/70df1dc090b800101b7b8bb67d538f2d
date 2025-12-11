@@ -1,0 +1,57 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Menu_Driven_switch {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int choice;
+		do {
+			System.out.println("1.Addition");
+			System.out.println("2.Subtraction");
+			System.out.println("3.Multiplication");
+			System.out.println("4.Division");
+			System.out.println("5.Exit");
+			System.out.println("Select your choice");
+			choice=sc.nextInt();
+			int n1,n2;
+			switch(choice)
+			{
+			case 1:
+				System.out.println("Enter first number");
+				n1=sc.nextInt();
+				System.out.println("Enter Second number");
+				n2=sc.nextInt();
+				System.out.println("Addition = "+(n1+n2));
+				break;
+			case 2:
+				System.out.println("Enter first number");
+				n1=sc.nextInt();
+				System.out.println("Enter Second number");
+				n2=sc.nextInt();
+				System.out.println("Subtraction = "+(n1-n2));
+				break;
+			case 3:
+				System.out.println("Enter first number");
+				n1=sc.nextInt();
+				System.out.println("Enter Second number");
+				n2=sc.nextInt();
+				System.out.println("Multiplication = "+(n1*n2));
+				break;
+			case 4:
+				System.out.println("Enter first number");
+				n1=sc.nextInt();
+				System.out.println("Enter Second number");
+				n2=sc.nextInt();
+				System.out.println("Addition = "+(n1/n2));
+				break;
+			
+			
+			}
+			
+		}while();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Menu_Driven_switch {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int choice;
+		do {
+			System.out.println()
+		}while();
+		
+	}
+
+}
